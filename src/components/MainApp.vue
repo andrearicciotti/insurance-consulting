@@ -2,11 +2,13 @@
 import HomeMain from './HomeMain.vue';
 import AboutMain from './AboutMain.vue';
 import ServicesMain from './ServicesMain.vue';
+import ProcessMain from './ProcessMain.vue';
 export default {
     components: {
         HomeMain,
         AboutMain,
         ServicesMain,
+        ProcessMain,
     },
     data() {
         return {
@@ -31,7 +33,10 @@ export default {
             <ServicesMain />
         </section>
 
-        <section id="process">Process</section>
+        <section id="process">
+            <ProcessMain />
+        </section>
+
         <section id="team">Team</section>
         <section id="blog">Blog</section>
         <section id="get-in-touch">Get in Touch</section>
@@ -61,8 +66,8 @@ export default {
 }
 
 #process {
-    height: 650px;
     background-color: $white-color;
+    position: relative;
 }
 
 #team {

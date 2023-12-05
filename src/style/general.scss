@@ -6,6 +6,10 @@ img {
     max-width: 100%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .ms_input-field {
     background-color: rgba($color: $edward-color, $alpha: 0.3);
     padding: .5rem .7rem;
@@ -16,9 +20,10 @@ img {
 }
 
 .ms_btn-blue {
-    padding: .4rem 1.3rem;
+    padding: .4rem 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: .8rem;
     border-radius: 5px;
     border: none;
     background-color: $blue-lagoon-color;   
@@ -32,9 +37,10 @@ img {
 }
 
 .ms_btn-transparent {
-    padding: .4rem 1.3rem;
+    padding: .4rem 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: .8rem;
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid $blue-lagoon-color;
@@ -62,7 +68,7 @@ img {
 }
 
 .ms_highligth {
-    background-color: rgba($color: $blue-lagoon-color, $alpha: 0.3);
+    background-color: rgba($color: $blue-lagoon-color, $alpha: 0.2);
     height: 100%;
     display: inline-block;
     padding: 0 .6rem;
