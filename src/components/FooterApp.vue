@@ -26,6 +26,7 @@ export default {
     
 footer {
     height: 600px;
+    color: $white-color;
 
     .footer-top {
         height: 540px;

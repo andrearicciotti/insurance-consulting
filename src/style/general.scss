@@ -21,13 +21,13 @@ img {
     font-weight: bold;
     border-radius: 5px;
     border: none;
-    background-color: $fountain-blue-color;   
+    background-color: $blue-lagoon-color;   
     color: white;
 
     &:hover {
         background-color: transparent;
-        border: 1px solid $fountain-blue-color;
-        color: $fountain-blue-color;
+        border: 1px solid $blue-lagoon-color;
+        color: $blue-lagoon-color;
     }
 }
 
@@ -37,12 +37,12 @@ img {
     font-weight: bold;
     border-radius: 5px;
     background-color: transparent;
-    border: 1px solid $fountain-blue-color;
-    color: $fountain-blue-color;
+    border: 1px solid $blue-lagoon-color;
+    color: $blue-lagoon-color;
 
     &:hover {
         border: none;
-        background-color: $fountain-blue-color;   
+        background-color: $blue-lagoon-color;   
         color: white;
     }
 }
@@ -50,9 +50,24 @@ img {
 .ms_title {
     color: $fountain-blue-color;
     text-transform: uppercase;
+    font-weight: bold;
     font-size: .8rem;
+    margin-bottom: 1.5rem;
 }
 
+.ms_subtitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 57px;
+}
+
+.ms_highligth {
+    background-color: rgba($color: $blue-lagoon-color, $alpha: 0.3);
+    height: 100%;
+    display: inline-block;
+    padding: 0 .6rem;
+    border-radius: 5px;
+}
 
 .ms_container {
     width: 70%;

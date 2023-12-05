@@ -32,8 +32,8 @@ export default {
 
                 <div class="row">
 
-                    <div class="col-4"><button class="ms_btn-transparent">Get In Touch</button></div>
-                    <div class="col-4"><button class="ms_btn-transparent">Read More</button></div>
+                    <div class="col-3"><button class="ms_btn-transparent">Get In Touch</button></div>
+                    <div class="col-3"><button class="ms_btn-transparent">Read More</button></div>
 
 
                 </div>

@@ -13,7 +13,7 @@ export default {
 
         <div class="header-top">
 
-            <div class="ms_container">
+            <div class="ms_container h-100">
 
                 <div class="row align-content-center justify-content-between">
 
@@ -106,23 +106,17 @@ header {
         background-color: $shark-color;
         color: $white-color;
         font-size: .7rem;
-
-        .ms_container {
-            width: 70%;
+        .row {
             height: 100%;
-            margin: 0 auto;
 
-            .row {
-                height: 100%;
-
-                a {
-                    color: inherit;
-                }
-
-                i {
-                    margin-right: .2rem;
-                }
+            a {
+                color: inherit;
             }
+
+            i {
+                margin-right: .2rem;
+            }
+
         }
     }
 
