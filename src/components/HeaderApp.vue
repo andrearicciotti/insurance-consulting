@@ -37,13 +37,13 @@ export default {
                             <div class="col-3">
                                 <div class="row align-content-center">
                                     <div class="col-4">
-                                        <i class="fa-brands fa-facebook-f"></i>
+                                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
                                     </div>
                                     <div class="col-4">
-                                        <i class="fa-brands fa-twitter"></i>
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
                                     </div>
                                     <div class="col-4">
-                                        <i class="fa-brands fa-linkedin-in"></i>
+                                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -115,6 +115,10 @@ header {
             .row {
                 height: 100%;
 
+                a {
+                    color: inherit;
+                }
+
                 i {
                     margin-right: .2rem;
                 }
@@ -138,7 +142,7 @@ header {
                 border-radius: 5px;
             }
 
-            .col-auto:hover > a {
+            .col-auto:hover>a {
                 color: $white-color;
             }
 
