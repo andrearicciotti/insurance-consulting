@@ -14,7 +14,7 @@ export default {
 
         <div class="col-6 d-flex flex-column justify-content-center align-items-start ms_form">
 
-            <h2 class="fw-bold">fusions & acquisition</h2>
+            <h2 class="fw-bold ms_title">fusions & acquisition</h2>
             <h3 class="fw-bold">Insurance Consulting</h3>
             <form action="">
 
@@ -57,12 +57,6 @@ export default {
     }
 
     .ms_form {
-
-        h2 {
-            color: $fountain-blue-color;
-            text-transform: uppercase;
-            font-size: .8rem;
-        }
 
         h3 {
             font-size: 4rem;

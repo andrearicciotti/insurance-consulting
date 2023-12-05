@@ -19,14 +19,15 @@ export default {
 
         <section id="home">
             <HomeMain />
+        </section>
+        <section id="about">
             <AboutMain />
         </section>
-        <section id="about"></section>
-        <section id="services"></section>
-        <section id="process"></section>
-        <section id="team"></section>
-        <section id="blog"></section>
-        <section id="get-in-touch"></section>
+        <section id="services">Services</section>
+        <section id="process">Process</section>
+        <section id="team">Team</section>
+        <section id="blog">Blog</section>
+        <section id="get-in-touch">Get in Touch</section>
 
     </main>
 </template>
@@ -43,7 +44,6 @@ export default {
 }
 
 #about{
-    height: 520px;
     background-color: $shark-color;
 }
 

@@ -57,7 +57,7 @@ export default {
 
         </div>
 
-        <div id="home" class="header-bottom  fw-semibold">
+        <div class="header-bottom  fw-semibold">
 
             <div class="ms_container">
 
@@ -69,13 +69,13 @@ export default {
 
                     <div class="col-11 ms_navigation">
                         <div class="row align-content-center justify-content-end">
-                            <div class="col-auto"><a href="home">Home</a></div>
-                            <div class="col-auto"><a href="about">About</a></div>
-                            <div class="col-auto"><a href="services">Services</a></div>
-                            <div class="col-auto"><a href="process">Process</a></div>
-                            <div class="col-auto"><a href="team">Team</a></div>
-                            <div class="col-auto"><a href="blog">Blog</a></div>
-                            <div class="col-auto"><a href="get-in-touch">Get in touch</a></div>
+                            <div class="col-auto"><a href="#home">Home</a></div>
+                            <div class="col-auto"><a href="#about">About</a></div>
+                            <div class="col-auto"><a href="#services">Services</a></div>
+                            <div class="col-auto"><a href="#process">Process</a></div>
+                            <div class="col-auto"><a href="#team">Team</a></div>
+                            <div class="col-auto"><a href="#blog">Blog</a></div>
+                            <div class="col-auto"><a href="#get-in-touch">Get in touch</a></div>
                         </div>
                     </div>
 
