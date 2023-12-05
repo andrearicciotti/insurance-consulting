@@ -1,5 +1,9 @@
 <script>
+import HomeMain from './HomeMain.vue';
 export default {
+    components: {
+        HomeMain,
+    },
     data() {
         return {
 
@@ -12,7 +16,7 @@ export default {
     <main>
 
         <section id="home">
-
+            <HomeMain />
         </section>
         <section id="about"></section>
         <section id="services"></section>

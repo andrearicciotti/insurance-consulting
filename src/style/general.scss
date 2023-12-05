@@ -6,3 +6,43 @@ img {
     max-width: 100%;
 }
 
+.ms_input-field {
+    background-color: rgba($color: $edward-color, $alpha: 0.3);
+    padding: .5rem .7rem;
+    border-radius: 5px;
+    border: none;
+    color: $cloudy-color;
+    outline: none !important;
+}
+
+.ms_btn-blue {
+    padding: .4rem 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: $fountain-blue-color;   
+    color: white;
+
+    &:hover {
+        background-color: transparent;
+        border: 1px solid $fountain-blue-color;
+        color: $fountain-blue-color;
+    }
+}
+
+.ms_btn-transparent {
+    padding: .4rem 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid $fountain-blue-color;
+    color: $fountain-blue-color;
+
+    &:hover {
+        border: none;
+        background-color: $fountain-blue-color;   
+        color: white;
+    }
+}
