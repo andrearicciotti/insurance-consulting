@@ -44,5 +44,6 @@ export const store = reactive({
             title: 'Interval your sessions for more focus',
             imgPath: '../assets/img/news-5.jpg'
         },
-    ]
+    ],
+    activeArticle: null,
 });

@@ -11,6 +11,20 @@ export default {
 
     components: {
         ArticleBlog,
+    }, 
+
+    methods: {
+        handleArticle(index) {
+            this.store.activeArticle = index;
+            let doc = document.querySelector(".ms_blog");
+            this.store.activeArticle !== 1 ?
+            doc.scrollLeft = this.store.activeArticle * 280 :
+            doc.scrollLeft = 0;
+        },
+
+        handleLeave(index) {
+            this.store.activeArticle = null;
+        }
     }
 }
 </script>
@@ -24,8 +38,8 @@ export default {
             <button class="ms_btn-blue h-50 align-items-end">see all</button>
         </div>
 
-        <div class="ms_blog my-5">
-            <ArticleBlog v-for="article in store.articles" :article="article" />
+        <div class="ms_blog mt-5">
+            <ArticleBlog @hoverArticle="handleArticle(index)" @leaveArticle="handleLeave(index)" v-for="(article, index) in store.articles" :article="article" :index="index"/>
         </div>
     </div>
 </template>
@@ -51,6 +65,10 @@ export default {
         height: 330px;
         width: 100%;
         scroll-behavior: smooth;
+
+        &::-webkit-scrollbar {
+                display: none;
+            }
     }
 }
 </style>
