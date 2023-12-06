@@ -30,12 +30,12 @@ footer {
 
     .footer-top {
         height: 540px;
-        background-color: $shark-color;
+        background-color: $woodsmoke-color;
     }
 
     .footer-bottom {
         height: 60px;
-        background-color: $woodsmoke-color;
+        background-color: #09090c;
     }
 }
 </style>

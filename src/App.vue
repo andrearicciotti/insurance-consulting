@@ -10,6 +10,7 @@ export default {
     MainApp,
     FooterApp,
   },
+  
   data () {
     return {
       store,

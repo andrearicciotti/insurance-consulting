@@ -27,6 +27,7 @@ body {
     border-radius: 5px;
     border: none;
     background-color: $blue-lagoon-color;   
+    border: 1px solid transparent;
     color: white;
 
     &:hover {
