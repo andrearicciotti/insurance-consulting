@@ -9,12 +9,13 @@ export default {
 </script>
 
 <template>
-    <footer>
+    <footer id="footer">
+
         <div class="footer-top">
             <div class="ms_container">
 
                 <div class="row row-cols-4">
-    
+
                     <div class="col d-flex flex-column ms_footer-info">
                         <a href="#app"><span class="ms_logo">Nex</span>gen</a>
                         <h4>A Functional HTML Template for Corporate & Business.</h4>
@@ -26,7 +27,7 @@ export default {
                         </div>
                         <div><button class="ms_btn-transparent">Get in touch</button></div>
                     </div>
-    
+
                     <div class="col ms_footer-links">
                         <ul>
                             <h4>About</h4>
@@ -38,7 +39,7 @@ export default {
                             <li><i class="fa-solid fa-angle-right"></i><a href="">Technology</a></li>
                         </ul>
                     </div>
-    
+
                     <div class="col ms_footer-links">
                         <ul>
                             <h4>About</h4>
@@ -50,7 +51,7 @@ export default {
                             <li><i class="fa-solid fa-angle-right"></i><a href="">Technology</a></li>
                         </ul>
                     </div>
-    
+
                     <div class="col ms_footer-links">
                         <ul>
                             <h4>About</h4>
@@ -62,7 +63,7 @@ export default {
                             <li><i class="fa-solid fa-angle-right"></i><a href="">Technology</a></li>
                         </ul>
                     </div>
-    
+
                 </div>
 
             </div>
@@ -71,7 +72,22 @@ export default {
 
         <div class="footer-bottom">
 
+            <div class="ms_container h-100">
+
+                <div class="row justify-content-between align-items-center h-100">
+                    <div class="col-6">
+                        <p class="m-0">Enjoy the low price. We are tracking any intention of piracy.</p>
+                    </div>
+
+                    <div class="col-4">
+                        <p class="m-0">© 2020 NEXGEN is proudly powered by <a href="#footer">Codings</a>.</p>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
+        
     </footer>
 </template>
 
@@ -121,6 +137,7 @@ footer {
                 }
 
             }
+
             .ms_footer-links {
                 background-color: rgba($color: $courduroy-color, $alpha: 0.1);
                 padding: 1.5rem .5rem;
@@ -154,6 +171,12 @@ footer {
     .footer-bottom {
         height: 60px;
         background-color: #09090c;
+        font-size: .8rem;
+
+        a {
+            text-decoration: none;
+            color: $elm-color;
+        }
     }
 }
 </style>

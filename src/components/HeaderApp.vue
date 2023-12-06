@@ -1,11 +1,27 @@
 <script>
+import { store } from '../store';
+
 export default {
     data() {
         return {
-
+            store,
+            bg: false,
         }
-    }
+    },
+
+    created() {
+        window.addEventListener('scroll', function (event) {
+            if (window.scrollY > 600) {
+                this.bg = true;
+                console.log('ok', this.bg);
+            } else if (window.scrollY < 600) {
+                this.bg = false;
+                console.log('ok', this.bg);
+            }
+        });
+    },
 }
+
 </script>
 
 <template>
@@ -57,7 +73,7 @@ export default {
 
         </div>
 
-        <div class="header-bottom  fw-semibold">
+        <div class="header-bottom fw-semibold" :class="bg === true ? 'bg-transparent' : ''">
 
             <div class="ms_container">
 
@@ -91,6 +107,7 @@ export default {
 <style lang="scss" scoped>
 @use '../style/partials/mixins' as *;
 @use '../style/partials/variables' as *;
+
 
 header {
     height: $header-heigth;
@@ -126,7 +143,6 @@ header {
         width: 100%;
         background-color: $black-haze-color;
         font-size: .9rem;
-
         .ms_container {
             width: 70%;
             height: 100%;

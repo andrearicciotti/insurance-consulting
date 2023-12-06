@@ -46,4 +46,5 @@ export const store = reactive({
         // },
     ],
     activeArticle: null,
+    backgroundTransp: false,
 });
