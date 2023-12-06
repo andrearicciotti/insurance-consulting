@@ -15,7 +15,7 @@ export default {
 
             <div class="col-5 ms_about-title">
                 <h2 class="ms_title">About the network</h2>
-                <h3 class="ms_subtitle"><span class="ms_highligth">The</span> Company</h3>
+                <h3 class="ms_subtitle"><span class="ms_highligth">The</span>Company</h3>
                 <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe animi, repudiandae
                     repellendus illum.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam a labore provident facere enim.</p>

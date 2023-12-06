@@ -3,13 +3,17 @@ import HomeMain from './HomeMain.vue';
 import AboutMain from './AboutMain.vue';
 import ServicesMain from './ServicesMain.vue';
 import ProcessMain from './ProcessMain.vue';
+import TeamMain from './TeamMain.vue';
+
 export default {
     components: {
         HomeMain,
         AboutMain,
         ServicesMain,
         ProcessMain,
+        TeamMain,
     },
+
     data() {
         return {
 
@@ -37,7 +41,10 @@ export default {
             <ProcessMain />
         </section>
 
-        <section id="team">Team</section>
+        <section id="team">
+            <TeamMain />
+        </section>
+
         <section id="blog">Blog</section>
         <section id="get-in-touch">Get in Touch</section>
 
@@ -57,7 +64,7 @@ export default {
 }
 
 #about{
-    background-color: $shark-color;
+    background-color: $woodsmoke-color;
     color: $white-color;
 }
 
@@ -71,8 +78,7 @@ export default {
 }
 
 #team {
-    height: 700px;
-    background-color: $shark-color;
+    background-color: $woodsmoke-color;
     color: $white-color;
 }
 

@@ -60,7 +60,7 @@ export default {
     width: 100%;
     background-color: $sea-nymph-color;
     position: absolute;
-    bottom: 45%;
+    bottom: 42.5%;
     left: 0;
 }
 
@@ -70,7 +70,6 @@ export default {
 
     .ms_highligth {
         color: $blue-lagoon-color;
-        margin-right: .3rem;
     }
 
     p {
@@ -85,7 +84,11 @@ export default {
     h3 {
         margin: 1.5rem 0;
         font-weight: bold;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: .9rem;
     }
 
     span {
