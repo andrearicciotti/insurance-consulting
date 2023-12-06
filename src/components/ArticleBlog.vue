@@ -2,7 +2,7 @@
 import { store } from '../store';
 
 export default {
-    data () {
+    data() {
         return {
             store,
         }
@@ -24,9 +24,10 @@ export default {
 </script>
 
 <template>
-    <div @mouseover="$emit('hoverArticle')" @mouseleave="$emit('leaveArticle')" class="col-4 ms_article" :class="store.activeArticle === index ? 'active' : ''">
-        <img :src="getImagePath(article.imgPath)" :class="store.activeArticle === index ? 'active' : ''" :alt="article.title">
-        <a :class="store.activeArticle === index ? 'active' : ''" href="">{{ article.title }}</a>
+    <div @click="$emit('hoverArticle')" class="col-4 ms_article" :class="store.activeArticle === index ? 'active' : ''">
+        <img :src="getImagePath(article.imgPath)" :class="store.activeArticle === index ? 'active' : ''"
+            :alt="article.title">
+        <a :class="store.activeArticle === index ? 'active' : ''">{{ article.title }}</a>
     </div>
 </template>
 
@@ -41,39 +42,42 @@ export default {
     margin: 0 .6rem;
     text-align: center;
     cursor: pointer;
-    transition: all .5s ease-in;
+    transition: all .8s ease-in;
 
     &.active {
-        width: 33%;
-        transition: all .5s ease-in;
+        width: 35%;
+        transition: all .8s ease-in;
     }
 
     img {
         filter: brightness(0.5);
         border-radius: 10px;
-        transition: all .5s ease-in;
+        transition: all .8s ease-in;
 
         &.active {
             filter: brightness(1);
-            transition: all .5s ease-in;
+            transition: all .8s ease-in;
         }
     }
 
     a {
         text-decoration: none;
-        color: $black-haze-color;
+        color: rgba($color: $black-haze-color, $alpha: 0.3);
         font-size: 1.2rem;
         font-weight: bold;
         position: absolute;
         bottom: 10%;
         left: 2.5%;
-        margin: 1rem;transition: all .5s ease-in;
+        margin: 1rem;
+        transition: all .8s ease-in;
 
         &.active {
             bottom: 8%;
-            background-color: rgba($color: $woodsmoke-color, $alpha: 0.8);
+            color: $black-haze-color;
+            padding: .3rem .7rem;
+            background-color: rgba($color: $woodsmoke-color, $alpha: 0.6);
             border-radius: 10px;
-            transition: all .5s ease-in;
+            transition: all .8s ease-in;
         }
     }
 }

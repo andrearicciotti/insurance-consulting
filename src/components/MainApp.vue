@@ -5,6 +5,7 @@ import ServicesMain from './ServicesMain.vue';
 import ProcessMain from './ProcessMain.vue';
 import TeamMain from './TeamMain.vue';
 import BlogMain from './BlogMain.vue';
+import GetInTouchMain from './GetInTouchMain.vue';
 
 export default {
     components: {
@@ -14,6 +15,7 @@ export default {
         ProcessMain,
         TeamMain,
         BlogMain,
+        GetInTouchMain,
     },
 
     data() {
@@ -51,7 +53,9 @@ export default {
             <BlogMain />
         </section>
         
-        <section id="get-in-touch">Get in Touch</section>
+        <section id="get-in-touch">
+            <GetInTouchMain />
+        </section>
 
     </main>
 </template>
@@ -92,9 +96,9 @@ export default {
 }
 
 #get-in-touch {
-    height: 500px;
     background-image: url(../assets/img/bg-1.jpg);
     background-size: cover;
+    background-position: center;
     color: $white-color;
 }
 </style>

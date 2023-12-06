@@ -29,11 +29,13 @@ body {
     background-color: $blue-lagoon-color;   
     border: 1px solid transparent;
     color: white;
+    transition: all .4s ease-in;
 
     &:hover {
         background-color: transparent;
         border: 1px solid $blue-lagoon-color;
         color: $blue-lagoon-color;
+        transition: all .4s ease-in;
     }
 }
 
@@ -46,11 +48,13 @@ body {
     background-color: transparent;
     border: 1px solid $blue-lagoon-color;
     color: $blue-lagoon-color;
+    transition: all .4s ease-in;
 
     &:hover {
         border: none;
         background-color: $blue-lagoon-color;   
         color: white;
+        transition: all .4s ease-in;
     }
 }
 

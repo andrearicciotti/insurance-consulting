@@ -36,14 +36,14 @@ export const store = reactive({
             title: 'Working from home is now a trend',
             imgPath: '../assets/img/news-3.jpg'
         },
-        {
-            title: 'It\' s never too late for learn something new',
-            imgPath: '../assets/img/news-4.jpg'
-        },
-        {
-            title: 'Interval your sessions for more focus',
-            imgPath: '../assets/img/news-5.jpg'
-        },
+        // {
+        //     title: 'It\' s never too late for learn something new',
+        //     imgPath: '../assets/img/news-4.jpg'
+        // },
+        // {
+        //     title: 'Interval your sessions for more focus',
+        //     imgPath: '../assets/img/news-5.jpg'
+        // },
     ],
     activeArticle: null,
 });

@@ -20,10 +20,10 @@ export default {
 
                 <div class="row row-cols-2 w-75 g-3 my-3 justify-content-start align-items-center">
 
-                    <div class="col"><input class="ms_input-field w-100" type="text" placeholder="name"></div>
-                    <div class="col"><input class="ms_input-field w-100" type="email" placeholder="email"></div>
-                    <div class="col"><input class="ms_input-field w-100" type="tel" placeholder="phone"></div>
-                    <div class="col"><select class="ms_input-field w-100" name="more-info" id="more-info">
+                    <div class="col"><input class="ms_input-field w-100" type="text" placeholder="Name"></div>
+                    <div class="col"><input class="ms_input-field w-100" type="email" placeholder="Email"></div>
+                    <div class="col"><input class="ms_input-field w-100" type="tel" placeholder="Phone"></div>
+                    <div class="col"><select class="ms_input-field w-100" name="more-info" id="More-info">
                             <option value="more-info">More Info</option>
                         </select></div>
 

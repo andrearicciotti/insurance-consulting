@@ -18,7 +18,7 @@ export default {
             this.store.activeArticle = index;
             let doc = document.querySelector(".ms_blog");
             this.store.activeArticle !== 1 ?
-            doc.scrollLeft = this.store.activeArticle * 280 :
+            doc.scrollLeft = (this.store.activeArticle - 1) * 280 :
             doc.scrollLeft = 0;
         },
 
@@ -65,6 +65,7 @@ export default {
         height: 330px;
         width: 100%;
         scroll-behavior: smooth;
+        scroll-snap-type: proximity;
 
         &::-webkit-scrollbar {
                 display: none;
