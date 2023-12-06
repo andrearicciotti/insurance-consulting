@@ -51,11 +51,24 @@ body {
     transition: all .4s ease-in;
 
     &:hover {
-        border: none;
+        border: 1px solid transparent;
         background-color: $blue-lagoon-color;   
         color: white;
         transition: all .4s ease-in;
     }
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.ms_logo {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: .6rem .1rem .6rem 1.3rem;
+    margin-right: .5rem;
+    background-color: rgba($color: $elm-color, $alpha: 0.3);
+    color: $fountain-blue-color;
 }
 
 .ms_title {

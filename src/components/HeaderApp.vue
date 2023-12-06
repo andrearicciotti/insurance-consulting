@@ -64,7 +64,7 @@ export default {
                 <div class="row align-content-center">
 
                     <div class="col-1">
-                        <a href="app">Nexgen</a>
+                        <a class="ms_header-logo" href="#app"><span class="ms_logo">Nex</span>gen</a>
                     </div>
 
                     <div class="col-11 ms_navigation">
@@ -106,6 +106,7 @@ header {
         background-color: $shark-color;
         color: $white-color;
         font-size: .7rem;
+
         .row {
             height: 100%;
 
@@ -130,6 +131,21 @@ header {
             width: 70%;
             height: 100%;
             margin: 0 auto;
+
+            .ms_header-logo {
+                font-weight: bold;
+                letter-spacing: .4rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 1.2rem;
+
+                .ms_logo {
+                    color: $fountain-blue-color;
+                    padding: .5rem .1rem .5rem 1.3rem;
+                    background-color: rgba($color: $elm-color, $alpha: 0.15);
+                    margin-right: .3rem;
+                }
+            }
 
             .col-auto:hover {
                 background-color: $blue-lagoon-color;
