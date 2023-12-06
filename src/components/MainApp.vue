@@ -4,6 +4,7 @@ import AboutMain from './AboutMain.vue';
 import ServicesMain from './ServicesMain.vue';
 import ProcessMain from './ProcessMain.vue';
 import TeamMain from './TeamMain.vue';
+import BlogMain from './BlogMain.vue';
 
 export default {
     components: {
@@ -12,6 +13,7 @@ export default {
         ServicesMain,
         ProcessMain,
         TeamMain,
+        BlogMain,
     },
 
     data() {
@@ -45,7 +47,10 @@ export default {
             <TeamMain />
         </section>
 
-        <section id="blog">Blog</section>
+        <section id="blog">
+            <BlogMain />
+        </section>
+        
         <section id="get-in-touch">Get in Touch</section>
 
     </main>
@@ -83,7 +88,6 @@ export default {
 }
 
 #blog {
-    height: 750px;
     background-color: $black-haze-color;
 }
 
